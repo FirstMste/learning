@@ -1,6 +1,29 @@
-html {
+body {
   background: black;
   font-family: verdana;
+}
+header {
+  color: white;
+}
+.green {
+  width: 20%;
+  background-color: green;
+  color: white;
+}
+.Red {
+  width: 20%;
+  background-color: red;
+  color: white;
+}
+.blue {
+  width: 20%;
+  background-color: blue;
+  color: white;
+}
+.Reset {
+  width: 20%;
+  background-color: White;
+  color: black;
 }
 .container {
   width: 50%;
@@ -9,7 +32,7 @@ html {
   color: white;
   align-items: center;
   text-align: center;
-  margin: 5% 25%;
+  margin: 5% 35%;
 }
 .input {
   margin: 10px;
