@@ -3,7 +3,23 @@ Red.addEventListener("click", red);
 Green.addEventListener("click", green);
 Blue.addEventListener("click", blue);
 Reset.addEventListener("click", reset);
+btn1.addEventListener("click", creatbtn);
 
+function creatbtn() {
+        var namebtn = document.getElementById("nameBTN").value,
+        getLI = document.getElementById("newLi"),
+        newLi = document.createElement("LI"),
+        newbtn = document.createElement("BUTTON"),
+        newName = document.createTextNode(namebtn);
+
+
+        
+       getLI.appendChild(newbtn);
+       newbtn.appendChild(newName);
+       newbtn.style.margin = "25px" 
+       
+
+}
 
 function reset() {
     var backing = document.getElementById("backing");

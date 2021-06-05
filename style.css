@@ -55,3 +55,34 @@ header {
 .output li {
   list-style-type: decimal;
 }
+.container2 {
+  color: white;
+  text-align: center;
+}
+ul {
+  width: 50%;
+  background: #222;
+  display: block;
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 15% 25%;
+}
+.btn1 {
+  width: 25%;
+  text-align: center;
+}
+.btn1:hover {
+  background-color: aqua;
+}
+.nameBTN {
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nameBTN:focus {
+  border-color: #256;
+  background-color: aqua;
+}
