@@ -9,21 +9,29 @@ header {
   width: 20%;
   background-color: green;
   color: white;
+  padding: 10px;
+  margin-left: 15px;
 }
 .Red {
   width: 20%;
   background-color: red;
   color: white;
+  padding: 10px;
+  margin-left: 15px;
 }
 .blue {
   width: 20%;
   background-color: blue;
   color: white;
+  padding: 10px;
+  margin-left: 15px;
 }
 .Reset {
   width: 20%;
   background-color: White;
   color: black;
+  padding: 10px;
+  margin-left: 15px;
 }
 .container {
   width: 50%;
@@ -32,7 +40,7 @@ header {
   color: white;
   align-items: center;
   text-align: center;
-  margin: 5% 35%;
+  margin: 15% 25%;
 }
 .input {
   margin: 10px;
