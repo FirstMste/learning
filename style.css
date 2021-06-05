@@ -2,6 +2,18 @@ body {
   background: black;
   font-family: verdana;
 }
+.disclaim {
+  width: 50%;
+  background: #222;
+  display: block;
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 15% 25%;
+}
+.note {
+  font-size: 30px;
+}
 header {
   color: white;
 }

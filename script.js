@@ -4,6 +4,34 @@ Green.addEventListener("click", green);
 Blue.addEventListener("click", blue);
 Reset.addEventListener("click", reset);
 btn1.addEventListener("click", creatbtn);
+disclaim.addEventListener("mouseover", discl )
+disclaim.addEventListener("mouseout", normal )
+
+
+function normal() {
+
+    var dis = document.getElementById("disclaim"),
+    note = document.getElementById("note");
+    dis.style.background = "#222"
+    note.style.color = "white"
+
+
+
+}
+
+
+function discl() {
+
+    var dis = document.getElementById("disclaim"),
+    note = document.getElementById("note");
+    dis.style.background = "white"
+    note.style.color = "black"
+
+
+
+}
+
+
 
 function creatbtn() {
         var namebtn = document.getElementById("nameBTN").value,
